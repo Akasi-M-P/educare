@@ -1,0 +1,46 @@
+/* First section */
+/* 480-less    - phone landscape & smaller */
+@media all and (max-width: 640px) {
+    .hero {
+        width: 100%;
+
+    }
+
+    .left-hero {
+        width: 90%;
+        margin: auto;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .right-hero {
+        width: 90%;
+        margin: auto;
+    }
+
+    .left-hero h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .left-hero p {
+        font-weight: 200;
+    }
+
+    .left-hero button {
+        width: 50%;
+        margin: auto;
+        background-color: #682C0E;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 0;
+    }
+
+    .right-hero img {
+        width: 80%;
+        margin: auto;
+    }
+ }
