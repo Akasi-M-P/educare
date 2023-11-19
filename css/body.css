@@ -591,6 +591,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 10px;
     }
 
     .follow-us h1 {
