@@ -4,18 +4,32 @@
     font-family: "Poppins";
  }
 
+
+
 /* General Styles */
 .Navbar {
     background-color: #F9E0AE;
+             overflow: hidden;
+      position: sticky; /* Set the position to sticky */
+      top: 0; /* Stick to the top of the viewport */
+      z-index: 100; /* Add a z-index to ensure it appears above other elements */
 }
 
 
 /* Mobile DropDown */
 
     .mobileNav {
+        width: 100%;
         background-color: #F9E0AE;
         padding: 20px;
         display: none;
+        position: absolute;
+        z-index: 1;
+         animation: fadeIn 1s ease-in-out forwards; 
+                 overflow: hidden;
+      position: sticky; /* Set the position to sticky */
+      top: 0; /* Stick to the top of the viewport */
+      z-index: 100; /* Add a z-index to ensure it appears above other elements */
     }
 
     .mobile-dropdown {
@@ -60,10 +74,21 @@
         /*hide close nav */
     .close-nav {
         display: none;
+        
     }
 
     .display-close-nav {
         display: block;
+    }
+
+    /* Define the fadeIn animation */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
     }
 
 
@@ -74,6 +99,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 30px 30px;
+        position: sticky;
     }
 
     .logo img {
@@ -90,6 +116,10 @@
 
     .close-nav {
         width: 30px;
+                 overflow: hidden;
+      position: sticky; /* Set the position to sticky */
+      top: 0; /* Stick to the top of the viewport */
+      z-index: 100; /* Add a z-index to ensure it appears above other elements */
     }
 
     

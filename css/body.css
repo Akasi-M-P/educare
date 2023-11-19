@@ -366,3 +366,196 @@
         padding: 20px;
     }
 }
+
+
+/* COMMUNITY SECTION */
+.community {
+    width: 70%;
+    height: 900px;
+    margin: 300px auto;
+    background-image: url("../images/comm-img.png");
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+/* 640-less    - phone landscape & smaller */
+@media all and (max-width: 640px) {
+    .community {
+        width: 90%;
+        background-size: inherit;
+        background-size: contain;
+        height: 500px;
+        margin: 100px auto;
+        position: relative;
+    } 
+
+    .community h1 {
+        font-size: 20px;
+        padding-bottom: 8px;
+    }
+
+    .community p {
+        font-size: small;
+    }
+
+    .community button {
+        margin-top: 30px;
+        font-size: 12px;
+        color: white;
+        background-color: #FC8621;
+        border: transparent;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+
+    .circle-1 {
+        position: absolute;
+        top: 180px;
+        width: 50px;
+    }
+
+    .circle-2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px;
+    }
+
+    .circle-3 {
+        position: absolute;
+        top: 200px;
+        left: 100px;
+        width: 50px;
+    }
+
+     .circle-4 {
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 50px;
+    }
+}
+
+
+/*  1024-768    - tablet landscape */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .community {
+        width: 90%;
+        background-size: inherit;
+        background-size: contain;
+        height: 500px;
+        margin: 200px auto;
+        position: relative;
+    } 
+
+    .community h1 {
+        font-size: 30px;
+        padding-bottom: 8px;
+    }
+
+    .community p {
+        font-size: 18px;
+    }
+
+    .community button {
+        margin-top: 30px;
+        font-size: 16px;
+        color: white;
+        background-color: #FC8621;
+        border: transparent;
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+
+    .circle-1 {
+        position: absolute;
+        top: 300px;
+        width: 80px;
+    }
+
+    .circle-2 {
+        position: absolute;
+        right: 100px;
+        top: 0;
+        width: 80px;
+    }
+
+    .circle-3 {
+        position: absolute;
+        top: 400px;
+        left: 150px;
+        width: 80px;
+    }
+
+     .circle-4 {
+        position: absolute;
+        top: 200px;
+        right: 0;
+        width: 80px;
+    }
+}
+
+
+
+/* 1280-1024   - desktop (default grid) */
+
+@media all and (min-width: 1024px) and (max-width: 1836px) { 
+    .community {
+        width: 90%;
+        background-size: inherit;
+        background-size: cover;
+        height: 900px;
+        margin: 300px auto;
+        position: relative;
+    } 
+
+    .community h1 {
+        padding-bottom: 8px;
+        font-weight: bold;
+        font-size: 60px;
+    }
+
+    .community p {
+        font-size: 24px;
+    }
+
+    .community button {
+        margin-top: 30px;
+        font-size: 24px;
+        color: white;
+        background-color: #FC8621;
+        border: transparent;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+
+    .circle-1 {
+        position: absolute;
+        top: 450px;
+        width: 120px;
+    }
+
+    .circle-2 {
+        position: absolute;
+        right: 200px;
+        top:50px;
+        width: 120px;
+    }
+
+    .circle-3 {
+        position: absolute;
+        top: 700px;
+        left: 300px;
+        width: 120px;
+    }
+
+     .circle-4 {
+        position: absolute;
+        top: 400px;
+        right: 0;
+        width: 120px;
+    }
+}
