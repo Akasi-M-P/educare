@@ -563,8 +563,7 @@
 
 /* FOOTER SECTION */
 footer {
-    width: 90%;
-    margin: auto;
+    width: 100%;
     background-color: #F9E0AE;
 }
 
@@ -576,7 +575,6 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 30px;
-        margin: 10px;
     }
 
     footer .logo {
