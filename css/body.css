@@ -384,7 +384,7 @@
         width: 90%;
         background-size: inherit;
         background-size: contain;
-        height: 500px;
+        height: 250px;
         margin: 100px auto;
         position: relative;
     } 
@@ -557,5 +557,77 @@
         top: 400px;
         right: 0;
         width: 120px;
+    }
+}
+
+
+/* FOOTER SECTION */
+footer {
+    width: 90%;
+    margin: auto;
+    background-color: #F9E0AE;
+}
+
+
+/* 640-less    - phone landscape & smaller */
+@media all and (max-width: 640px) {
+    footer {
+        padding: 50px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer .logo {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .follow-us {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social {
+        display: flex;
+        gap: 20px;
+    }
+
+    .social img {
+        object-fit: contain;
+        cursor: pointer;
+    }
+
+    .links {
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links ul li a {
+        text-decoration: none;
+        color: gray;
+    }
+
+    .contacts {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacts p {
+        color: gray;
     }
 }
